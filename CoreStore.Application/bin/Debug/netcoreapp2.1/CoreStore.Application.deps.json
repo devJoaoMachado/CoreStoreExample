@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "CoreStore.Application/1.0.0": {
+        "dependencies": {
+          "CoreStore.Domain": "1.0.0",
+          "CoreStore.Infra": "1.0.0",
+          "CoreStore.Shared": "1.0.0"
+        },
+        "runtime": {
+          "CoreStore.Application.dll": {}
+        }
+      },
+      "FluentValidator/2.0.4": {
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "CoreStore.Domain/1.0.0": {
+        "dependencies": {
+          "CoreStore.Shared": "1.0.0",
+          "FluentValidator": "2.0.4"
+        },
+        "runtime": {
+          "CoreStore.Domain.dll": {}
+        }
+      },
+      "CoreStore.Infra/1.0.0": {
+        "runtime": {
+          "CoreStore.Infra.dll": {}
+        }
+      },
+      "CoreStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "runtime": {
+          "CoreStore.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreStore.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-px1HWHYBD20PuCUgz/mEl/QcBsikW5nbdtR5whllwMIyJ4FJs03nGXe5ocHEre/x3CX72hJBnX7bteqkZwlcfA==",
+      "path": "fluentvalidator/2.0.4",
+      "hashPath": "fluentvalidator.2.0.4.nupkg.sha512"
+    },
+    "CoreStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreStore.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreStore.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
